@@ -1,5 +1,5 @@
 # COMP 472 Artificial intelligence 
-# Instruction to Run Jupyter Notebook
+## Instruction to Run Jupyter Notebook
 - After you can successfully run conda from powershell, you can install jupyter with:
  `conda install jupyter` command. 
 - Then re-open powershell and run `conda run jupyter notebook`.
