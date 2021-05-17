@@ -13,3 +13,11 @@
   #Success Run
   $ jupyter notebook
  ```
+- Change Python version in Conda
+```zsh
+$ conda create -n py37 python=3.7 anaconda
+# after success
+$ conda activate py37
+# deactive
+$ conda deactivate
+```
