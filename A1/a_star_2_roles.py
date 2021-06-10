@@ -13,7 +13,7 @@ from create_map import MyMap, Grid, Point
 class A_Star_Search:
     '''
     class A_Star_Search : implement A* algorithm
-    For (Role C)
+    For (Role C and V)
     :param: start_point : start point class
     :param: end_point : end point
     :param: myMap : a valid map 
@@ -568,10 +568,17 @@ class A_Star_Search:
                 if self.is_quarantine_area(self.start_point):
                     print(f'[No Path is Found, Please Try Again!] The start point {self.start_point.x, self.start_point.y} is already in the quarantine place!')
                     return
+                # check the end point is in the quarantine area
+                if not self.is_quarantine_area(self.end_point):
+                    sys.exit(0)
             elif self.current_map.role_type == 'role_v':
                 if self.is_vaccine_area(self.start_point):
                     print(f'[No Path is Found, Please Try Again!] The start point {self.start_point.x, self.start_point.y} is already in the vaccine place!')
                     return
+                # check the end point is in the vaccine area
+                if not self.is_vaccine_area(self.end_point):
+                    sys.exit(0)
+                
             else:
                 print("[Warning] Invalid Role Type! Check Again!\n")
             print("[News] Valid Start points, searching...")

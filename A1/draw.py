@@ -15,7 +15,7 @@ from a_star_2_roles import A_Star_Search
 
 def main():
     print("-"*50)
-    print("Covid-19 Map Simulation (For Role C)")
+    print("Covid-19 Map Simulation")
     print("Generating map...")
     print("-"*50)
 
@@ -87,15 +87,45 @@ def main():
     while True:
         try:
             # user input different types of the grids
-            q_input = input(f'Enter numbers of the quarantine place, sperated by comma (eg. 1,2,3) [range is from 1 to {row*column}]:').split(",")
-            v_input = input(f'Enter numbers of the vaccine spot, sperated by comma (eg. 1,2,3) [range is from 1 to {row*column}]:').split(",")
-            p_input = input(f'Enter numbers of the playing ground, sperated by comma (eg. 1,2,3) [range is from 1 to {row*column}]:').split(",")         
-            q_arr = [int(q_input[i]) for i in range(len(q_input))]
-            v_arr = [int(v_input[i]) for i in range(len(v_input))]
-            p_arr = [int(p_input[i]) for i in range(len(p_input))]
-            break
+            q_input = input(f'Enter numbers of the quarantine place, separated by comma (eg. 1,2,3) [range is from 1 to {row*column}]:').split(",")  
+            # check the number is valid
+            if all(1 <= int(q) <= (row*column) for q in q_input):
+                q_arr = [int(q_input[i]) for i in range(len(q_input))]
+                break
+            else: print("[Error] Invalid Input numbers of place, please Check again!")
         except ValueError:
             print("[Error] Invalid Input numbers of place, please Check again!")
+    
+    while True:
+        try:
+            # user input different types of the grids
+            v_input = input(f'Enter numbers of the vaccine spot, separated by comma (eg. 1,2,3) [range is from 1 to {row*column}]:').split(",")            
+            # check the number is valid
+            if all(1 <= int(v) <= (row*column) for v in v_input):
+                v_arr = [int(v_input[i]) for i in range(len(v_input))]
+                break
+            else: print("[Error] Invalid Input numbers of place, please Check again!")
+        except ValueError:
+            print("[Error] Invalid Input numbers of place, please Check again!")
+
+    while True:
+        try:
+            # user input different types of the grids
+            p_input = input(f'Enter numbers of the playing ground, separated by comma (eg. 1,2,3) [range is from 1 to {row*column}]:').split(",")         
+            
+            # check the number is valid
+            if all(1 <= int(p) <= (row*column) for p in p_input):
+                p_arr = [int(p_input[i]) for i in range(len(p_input))]
+                break
+            else:
+                print("[Error] Invalid Input numbers of place, please Check again!")
+        except ValueError:
+            print("[Error] Invalid Input numbers of place, please Check again!")
+
+
+
+
+
 
     # set each grid's type
     for qi in q_arr:
@@ -162,8 +192,8 @@ def main():
     while True:
         try:
             # set start and end point
-            start_x, start_y = map(float, input(f'Enter start point\'s x between [0, {aMap.xlim}] and y between [0,{aMap.ylim}], sperated by comma (eg. 0.2,0.3)').split(",")) 
-            end_x, end_y = map(float, input(f'Enter end point\'s x between [0, {aMap.xlim}] and y between [0,{aMap.ylim}], sperated by comma (eg. 0.2,0.3)').split(",")) 
+            start_x, start_y = map(float, input(f'Enter start point\'s x between [0, {aMap.xlim}] and y between [0,{aMap.ylim}], separated by comma (eg. 0.2,0.3)').split(",")) 
+            end_x, end_y = map(float, input(f'Enter end point\'s x between [0, {aMap.xlim}] and y between [0,{aMap.ylim}], separated by comma (eg. 0.2,0.3)').split(",")) 
         except ValueError:
             print("[Error] Invalid start or end point! Check Again!")
         else:
