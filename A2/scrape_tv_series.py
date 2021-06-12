@@ -22,7 +22,7 @@ def download_menu():
     :return: tv_url
     '''
     print('*' * 100)
-    print('\t\t\t\Scraping Menu:')
+    print('\t\t\tScraping Menu:')
     print('*' * 100)
     while True:
         try:
