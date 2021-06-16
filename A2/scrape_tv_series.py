@@ -52,7 +52,7 @@ def download_menu():
                 print('[Warning] Please input a valid number!!!')
             
         except ValueError or TypeError:
-            print('[Warning] Please input a valid number!!!')
+            print('[Warning] Please input a valid number!')
         
 def get_season_nums_list(html_soup):
     '''
@@ -179,6 +179,7 @@ def scrape_all_reviews():
     # print(data_csv['name'])
 
     # lists to store review 
+    review_title_lists = [] # store review title
     review_score_lists = [] # store scores
     review_comment_lists = [] # store comments
     num_episode = [] # store episode num
@@ -198,6 +199,7 @@ def scrape_all_reviews():
         # review_score_lists = [item.find('span',class_='rating-other-user-rating').find('span').text for item in star_mark_lists]
         # print(review_score_lists[0])
         for review_item in review_lists:
+
             # check if the review has scores or not
             if review_item.find_all('div',class_='ipl-ratings-bar'):
                 star_mark = review_item.find('div',class_='ipl-ratings-bar')
@@ -214,6 +216,10 @@ def scrape_all_reviews():
                 review_comment_lists.append(review_item.find('div',class_='text show-more__control').text)
                 # store episode num
                 num_episode.append(index)
+                # check the review title
+                review_title = review_item.find('a',class_='title').text
+                review_title_lists.append(review_title)
+                print(f'[Download] Finding review title : {review_title}')
 
         # print(review_score_lists)  
         # print(review_comment_lists) 
@@ -223,7 +229,9 @@ def scrape_all_reviews():
         'num-episode' : num_episode,
         'review-score' : review_score_lists,
         'positive-negative' : score_positive_negative,
+        'review-title' : review_title_lists,
         'review-comment' : review_comment_lists
+
     })
     print(reviews_data.info())
 
