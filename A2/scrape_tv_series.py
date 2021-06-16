@@ -11,6 +11,7 @@ Saving data as data.csv, the columns as follow:
 '''
 import sys
 import requests
+import lxml
 from bs4 import BeautifulSoup
 import re # for regex
 import pandas as pd
@@ -26,10 +27,10 @@ def download_menu():
     print('*' * 100)
     while True:
         try:
-            option_name = int(input('please choose one option: (eg. 1)\n [1]: Game of Thrones, [2]: Type URL by myself, [3]: Scrape reviews in data.csv, [9]: Exit\n'))
+            option_name = int(input('please choose one option: (eg. 1)\n [1]: The 100, [2]: Type URL by myself, [3]: Scrape reviews in data.csv, [9]: Exit\n'))
             # set tv_url
             if option_name == 1:
-                tv_url = 'https://www.imdb.com/title/tt0944947/'
+                tv_url = 'https://www.imdb.com/title/tt2661044/'
                 return tv_url
             elif option_name == 9:
                 print('[Exit]')
@@ -98,7 +99,7 @@ def start_scrape_seasons(tv_url):
     # get response.text
     response_text = request_url(season_url)
     # parse response.text by creating a BeautifulSoup Object, and assign this object to html_soup
-    html_soup = BeautifulSoup(response_text,'html.parser')
+    html_soup = BeautifulSoup(response_text,'lxml')
     # print(html_soup)
     # (1) find the max num of the seasons
     list_season_nums = get_season_nums_list(html_soup)
@@ -189,7 +190,7 @@ def scrape_all_reviews():
         # get response.text
         response_text = request_url(review_url)
         # parse response.text by creating a BeautifulSoup Object, and assign this object to html_soup
-        html_soup = BeautifulSoup(response_text,'html.parser')
+        html_soup = BeautifulSoup(response_text,'lxml')
 
         # get all reviews of this link (avoid "Warning:spoilers")
         review_lists = html_soup.find_all('div',class_='lister-item mode-detail imdb-user-review collapsable')
