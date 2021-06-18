@@ -15,6 +15,7 @@ import lxml
 from bs4 import BeautifulSoup
 import re # for regex
 import pandas as pd
+from tqdm import tqdm
 
 
 def download_menu():
@@ -79,7 +80,9 @@ def request_url(url):
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
     }
     try:
-        response = requests.get(url,headers=headers)
+        # use session
+        requests_session = requests.Session()
+        response = requests_session.get(url,headers=headers)
         # status 200 means connected success
         if response.status_code == 200:
             print('[news] Connected Success!')
@@ -112,7 +115,7 @@ def start_scrape_seasons(tv_url):
     url_head = 'https://www.imdb.com/title/'
     
     # (2) scrape all episodes from each season
-    for i in list_season_nums:
+    for i in tqdm(list_season_nums,desc='scraping'):
         # crawling
         print(f'\n[Crawling] Season: No. {i}')
         # we have already use season 1, so directly use current html_soup
@@ -130,7 +133,7 @@ def start_scrape_seasons(tv_url):
             # get response.text
             response_text = request_url(season_url)
             # parse response.text by creating a BeautifulSoup Object, and assign this object to html_soup
-            html_soup = BeautifulSoup(response_text,'html.parser')
+            html_soup = BeautifulSoup(response_text,'lxml')
 
             episode_lists = html_soup.find('div', class_='list detail eplist')
             # find eoisode id
@@ -149,8 +152,15 @@ def start_scrape_seasons(tv_url):
 
         # get year
         episode_year_lists = episode_lists.find_all('div',class_='airdate')
-        # split year number by Regex
-        episode_years = [re.split('\s',item.text.strip())[-1] for item in episode_year_lists ]
+        # split year number by Regex, (such as 12 Jun. 2011 --> 2011)
+        # sometimes new episodes have no year date, fix them by comparing the length
+        episode_years = []
+        for item in episode_year_lists:
+            temp_year = re.split('\s',item.text.strip())[-1]
+            if len(temp_year) == 0:
+                temp_year = 'Not Found'
+            episode_years.append(temp_year)
+        # episode_years = [re.split('\s',item.text.strip())[-1] for item in episode_year_lists ]
         # print(episode_years)
         
         # extend lists: | name | season | review link | year |
@@ -158,7 +168,7 @@ def start_scrape_seasons(tv_url):
         season_num.extend(episode_id)
         review_link.extend(episode_review_link_lists)
         year.extend(episode_years)
-    
+    # sys.exit(0)
     # (3) store data by pandas
     tv_series_data = pd.DataFrame({
         'name': name_episode,
@@ -199,28 +209,63 @@ def scrape_all_reviews():
         # find review score (>= 8.0 is positive, otherwise is negative.) in <span>
         # review_score_lists = [item.find('span',class_='rating-other-user-rating').find('span').text for item in star_mark_lists]
         # print(review_score_lists[0])
+        
+        # add counter = 6 to get 6 comments for each review-link, speed up!!!
+        # make sure positive and negative reviews are balance
+        positive_counter = 0
+        negative_counter = 0
         for review_item in review_lists:
-
+            if positive_counter +  negative_counter == 8:
+                break
             # check if the review has scores or not
             if review_item.find_all('div',class_='ipl-ratings-bar'):
                 star_mark = review_item.find('div',class_='ipl-ratings-bar')
                 # if there is review scores, then store it
-                review_score_lists.append(int(star_mark.find('span',class_='rating-other-user-rating').find('span').text))
-                
-                # if score >= 8 is positive (1 mark), otherwise negative (0 mark)
-                if review_score_lists[-1] >= 8:
+                # review_score_lists.append(int(star_mark.find('span',class_='rating-other-user-rating').find('span').text))
+                score_comment = int(star_mark.find('span',class_='rating-other-user-rating').find('span').text)
+                if score_comment >= 8 and positive_counter < 4:
+                    review_score_lists.append(score_comment)
+                    positive_counter += 1
+                    # if score >= 8 is positive (1 mark), otherwise negative (0 mark)
                     score_positive_negative.append(1)
-                else:
+                    # store comments
+                    review_comment_lists.append(review_item.find('div',class_='text show-more__control').text)
+                    # store episode num
+                    num_episode.append(index)
+                    # check the review title
+                    review_title = review_item.find('a',class_='title').text
+                    review_title_lists.append(review_title)
+                    print(f'[Download] Finding review title : {review_title}')
+                elif score_comment < 8 and negative_counter < 4:
+                    review_score_lists.append(score_comment)
+                    negative_counter += 1
+                    # if score >= 8 is positive (1 mark), otherwise negative (0 mark)
                     score_positive_negative.append(0)
+                    # store comments
+                    review_comment_lists.append(review_item.find('div',class_='text show-more__control').text)
+                    # store episode num
+                    num_episode.append(index)
+                    # check the review title
+                    review_title = review_item.find('a',class_='title').text
+                    review_title_lists.append(review_title)
+                    print(f'[Download] Finding review title : {review_title}')
+                else:
+                    pass
+
+                # if score >= 8 is positive (1 mark), otherwise negative (0 mark)
+                # if review_score_lists[-1] >= 8:
+                #     score_positive_negative.append(1)
+                # else:
+                #     score_positive_negative.append(0)
 
                 # store comments
-                review_comment_lists.append(review_item.find('div',class_='text show-more__control').text)
-                # store episode num
-                num_episode.append(index)
-                # check the review title
-                review_title = review_item.find('a',class_='title').text
-                review_title_lists.append(review_title)
-                print(f'[Download] Finding review title : {review_title}')
+                # review_comment_lists.append(review_item.find('div',class_='text show-more__control').text)
+                # # store episode num
+                # num_episode.append(index)
+                # # check the review title
+                # review_title = review_item.find('a',class_='title').text
+                # review_title_lists.append(review_title)
+                # print(f'[Download] Finding review title : {review_title}')
 
         # print(review_score_lists)  
         # print(review_comment_lists) 

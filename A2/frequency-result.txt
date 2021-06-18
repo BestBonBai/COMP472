@@ -1,0 +1,640 @@
+No.1  The last party
+
+-7.33, -7.62, positive, positive, right
+No.2  Kept me wanting more!
+
+-1.11, -1.12, positive, positive, right
+No.3  One of the best episode
+
+-3.65, -3.52, negative, positive, wrong
+No.4  This is awesome
+
+-1.18, -1.32, positive, positive, right
+No.5  Everything is settled but..
+
+-3.11, -2.7, negative, positive, wrong
+No.6  Just 100
+
+-1.98, -2.18, positive, positive, right
+No.7  This episode ended excellently.
+
+-2.09, -2.07, negative, positive, wrong
+No.8  Really great episode!
+
+-1.11, -1.15, positive, positive, right
+No.9  The Other Side.
+
+-0.31, -0.29, negative, positive, wrong
+No.10  Bellamy to the rescue
+
+-11.7, -11.82, positive, positive, right
+No.11  These people are somethin else aren't they ?
+
+-3.88, -3.84, negative, positive, wrong
+No.12  Every minute of this episode was satisfying from start to finish.
+
+-2.05, -1.84, negative, positive, wrong
+No.13  Weird story set-up.
+
+-1.22, -1.26, positive, positive, right
+No.14  Battle Royale
+
+-3.51, -3.63, positive, positive, right
+No.15  Hunger Games vibes.
+
+-1.22, -1.26, positive, positive, right
+No.16  Facing the end.
+
+-0.31, -0.29, negative, positive, wrong
+No.17  It seems like it's starting to get better.
+
+-7.34, -7.14, negative, positive, wrong
+No.18  Good start.
+
+-2.14, -2.22, positive, positive, right
+No.19  Hope
+
+-5.06, -4.54, negative, positive, wrong
+No.20  I seem to have found hope again for this show
+
+-12.04, -11.14, negative, positive, wrong
+No.21  Don't believe the negative reviews, people are still mad from last week's problems.
+
+-2.89, -3.01, positive, positive, right
+No.22  The 100 is BACK
+
+-3.65, -3.56, negative, positive, wrong
+No.23  Captivating and Heart Clinching
+
+-6.67, -6.54, negative, positive, wrong
+No.24  Our delinquents attempt to save their friend Raven from the clutches of ALIE
+
+-2.71, -2.87, positive, positive, right
+No.25  back to its roots
+
+-4.74, -4.76, positive, positive, right
+No.26  the 100 is back
+
+-1.11, -1.12, positive, positive, right
+No.27  An intense, well-written episode with superb acting
+
+-5.51, -5.28, negative, positive, wrong
+No.28  Other Opinions based on previous episodes
+
+-2.05, -1.84, negative, positive, wrong
+No.29  One of the Best Episodes
+
+-4.75, -4.8, positive, positive, right
+No.30  This episode continues to evolve and impress me with character development
+
+-2.1, -2.29, positive, positive, right
+No.31  Holy cow this is so intense! Amazing episode I love it!!
+
+-3.0, -3.07, positive, positive, right
+No.32  Follow the light
+
+-6.39, -6.63, positive, positive, right
+No.33  Wait. Immature sad cases rating it 1 star because..???
+
+-7.22, -7.07, negative, positive, wrong
+No.34  Things are getting complicated
+
+-6.74, -6.85, positive, positive, right
+No.35  Intense, dramatic and fair. I like it!
+
+-1.25, -1.01, negative, positive, wrong
+No.36  I do it every day
+
+-3.08, -3.12, positive, positive, right
+No.37  Season 4 saved this show
+
+-3.22, -3.01, negative, positive, wrong
+No.38  The 100 is an amazing show!
+
+-3.76, -4.04, positive, positive, right
+No.39  A perfect episode
+
+-1.22, -1.26, positive, positive, right
+No.40  The 100 is back bitches!
+
+-2.17, -1.98, negative, positive, wrong
+No.41  The 100
+
+-2.14, -2.22, positive, positive, right
+No.42  The story looks messed up but ok.
+
+-2.97, -2.84, negative, positive, wrong
+No.43  Outstanding writing, surprises
+
+-3.8, -3.97, positive, positive, right
+No.44  I'm Still Hooked !
+
+-7.29, -7.65, positive, positive, right
+No.45  This is fun.
+
+-2.02, -2.12, positive, positive, right
+No.46  A great start to the two-part end of the season
+
+-3.08, -3.01, negative, positive, wrong
+No.47  Preparing for an epic finale
+
+-3.08, -2.94, negative, positive, wrong
+No.48  To the end.
+
+-3.04, -3.01, negative, positive, wrong
+No.49  Wow
+
+-1.11, -1.12, positive, positive, right
+No.50  I expected a bad episode given the reviews
+
+-1.22, -1.26, positive, positive, right
+No.51  This episode makes me want to read the book!
+
+-3.01, -3.25, positive, positive, right
+No.52  Phenomenal
+
+-0.31, -0.29, negative, positive, wrong
+No.53  Is there any chance of survival?
+
+-7.66, -7.76, positive, positive, right
+No.54  To the Producers and the Directors
+
+-1.22, -1.26, positive, positive, right
+No.55  Despite the reviews, great episode
+
+-1.91, -1.98, positive, positive, right
+No.56  How gravity is generated in the director's eyes?
+
+-1.29, -1.36, positive, positive, right
+No.57  The best season premiere yet!
+
+-1.29, -1.21, negative, positive, wrong
+No.58  Great start
+
+-0.31, -0.29, negative, positive, wrong
+No.59  May we meet again
+
+-0.31, -0.29, negative, positive, wrong
+No.60  Kind of annoying, not perfect, but great.
+
+-2.2, -2.18, negative, positive, wrong
+No.61  Helicopter Mother
+
+-0.31, -0.29, negative, positive, wrong
+No.62  The plot development is insane!
+
+-0.31, -0.29, negative, positive, wrong
+No.63  One man mission
+
+-14.6, -14.6, negative, positive, wrong
+No.64  Intense!
+
+-0.31, -0.29, negative, positive, wrong
+No.65  OMG
+
+-0.31, -0.29, negative, positive, wrong
+No.66  AAAARRRRGGHHHH
+
+-2.09, -2.04, negative, positive, wrong
+No.67  The Hundred
+
+-1.18, -1.32, positive, positive, right
+No.68  Impossible choices
+
+-13.14, -13.14, negative, positive, wrong
+No.69  Another good episode
+
+-1.18, -1.32, positive, positive, right
+No.70  Spotlight on Octavia.
+
+-2.09, -2.04, negative, positive, wrong
+No.71  Okey okey
+
+-0.31, -0.29, negative, positive, wrong
+No.72  Insanely Intense
+
+-2.2, -1.73, negative, positive, wrong
+No.73  Intense
+
+-0.31, -0.29, negative, positive, wrong
+No.74  I was blown away
+
+-0.31, -0.29, negative, positive, wrong
+No.75  IT WAS
+
+-0.31, -0.29, negative, positive, wrong
+No.76  A Whole New World!
+
+-1.29, -1.36, positive, positive, right
+No.77  This episode is amazing!!!
+
+-1.11, -1.12, positive, positive, right
+No.78  Best episode so far of what could be the best season of The 100
+
+-0.31, -0.29, negative, positive, wrong
+No.79  This season is SO good
+
+-1.98, -2.15, positive, positive, right
+No.80  Omg
+
+-0.31, -0.29, negative, positive, wrong
+No.81  Interesting episode.
+
+-2.23, -1.93, negative, positive, wrong
+No.82  Great begginings
+
+-0.31, -0.29, negative, positive, wrong
+No.83  EXCELLENT!!!
+
+-1.25, -1.01, negative, positive, wrong
+No.84  I love this show
+
+-2.97, -2.84, negative, positive, wrong
+No.85  Good second.
+
+-3.19, -3.12, negative, positive, wrong
+No.86  Really good episode
+
+-0.31, -0.29, negative, positive, wrong
+No.87  Good episode
+
+-0.31, -0.29, negative, positive, wrong
+No.88  Face Your Demons Already
+
+-4.23, -4.14, negative, positive, wrong
+No.89  Wonderful Start
+
+-0.31, -0.29, negative, positive, wrong
+No.90  A Breathtaking Beginning
+
+-0.31, -0.29, negative, positive, wrong
+No.91  Good start with a lot of mystery...
+
+-0.31, -0.29, negative, positive, wrong
+No.92  Heda vs Bloodreina
+
+-4.74, -5.07, positive, positive, right
+No.93  Tough decision.
+
+-1.22, -1.26, positive, positive, right
+No.94  Jorouuuuuum
+
+-0.31, -0.29, negative, positive, wrong
+No.95  She is an enemy of Wonkru.
+
+-1.3, -1.23, negative, positive, wrong
+No.96  Well-doned.
+
+-0.31, -0.29, negative, positive, wrong
+No.97  Pandora's box has been opened
+
+-1.29, -1.36, positive, positive, right
+No.98  A dangerous deal...
+
+-5.85, -5.18, negative, positive, wrong
+No.99  Another great episode
+
+-1.98, -2.15, positive, positive, right
+No.100  I can give you 283 reasons to love this episode
+
+-0.31, -0.29, negative, positive, wrong
+No.101  Absolutely amazing
+
+-1.11, -1.12, positive, positive, right
+No.102  Left Behind
+
+-2.09, -2.04, negative, positive, wrong
+No.103  One Word.... AMAZING
+
+-0.31, -0.29, negative, positive, wrong
+No.104  The Octavia show!!
+
+-1.98, -2.18, positive, positive, right
+No.105  Amazing.
+
+-1.22, -1.26, positive, positive, right
+No.106  Damn.
+
+-3.62, -3.77, positive, positive, right
+No.107  A notable end for a notable season
+
+-7.78, -7.81, positive, positive, right
+No.108  A well done performance by all cast and one hell of a season premiere
+
+-2.9, -3.15, positive, positive, right
+No.109  A good start.
+
+-0.31, -0.29, negative, positive, wrong
+No.110  The 100 is back, B**ches!
+
+-14.25, -13.96, negative, positive, wrong
+No.111  Yes yes yes
+
+-0.31, -0.29, negative, positive, wrong
+No.112  10/10
+
+-0.31, -0.29, negative, positive, wrong
+No.113  Best Season So Far
+
+-0.31, -0.29, negative, positive, wrong
+No.114  That's war
+
+-4.89, -4.75, negative, positive, wrong
+No.115  What. An. Episode.
+
+-1.98, -2.15, positive, positive, right
+No.116  That last scene tho
+
+-1.98, -2.15, positive, positive, right
+No.117  Always good!
+
+-1.91, -1.98, positive, positive, right
+No.118  The Things We Do For Peace.
+
+-6.55, -6.97, positive, positive, right
+No.119  Keeps up the great narrative of the previous episodes (no spoilers)
+
+-5.04, -4.76, negative, positive, wrong
+No.120  "My sister, my responsibility."
+
+-1.3, -1.23, negative, positive, wrong
+No.121  Slaughter
+
+-2.89, -3.04, positive, positive, right
+No.122  A very good episode
+
+-3.21, -3.0, negative, positive, wrong
+No.123  Intense episode.
+
+-1.11, -1.15, positive, positive, right
+No.124  Which side are you on?
+
+-4.01, -3.83, negative, positive, wrong
+No.125  The episode is good but,
+
+-1.29, -1.21, negative, positive, wrong
+No.126  Excellent episode
+
+-2.1, -2.05, negative, positive, wrong
+No.127  The Distance
+
+-3.69, -3.69, negative, positive, wrong
+No.128  War begins
+
+-0.31, -0.29, negative, positive, wrong
+No.129  One of the best episode of Season 2.
+
+-2.09, -2.18, positive, positive, right
+No.130  Understanding war.
+
+-0.31, -0.29, negative, positive, wrong
+No.131  Another amazing episode!
+
+-3.7, -3.94, positive, positive, right
+No.132  Mystery caves!!!
+
+-1.29, -1.21, negative, negative, right
+No.133  Insufferable
+
+-1.11, -1.15, positive, negative, wrong
+No.134  Dissapointing Filler Episode
+
+-1.25, -1.01, negative, negative, right
+No.135  downward spiral
+
+-1.18, -1.32, positive, negative, wrong
+No.136  Queen of the Cannibals.
+
+-3.12, -2.98, negative, negative, right
+No.137  Good episode terrible sound mixing
+
+-0.31, -0.29, negative, negative, right
+No.138  Build up
+
+-1.22, -1.26, positive, negative, wrong
+No.139  Unlike all of you I didn't like this episode
+
+-0.31, -0.29, negative, negative, right
+No.140  Left hanging
+
+-1.25, -1.01, negative, negative, right
+No.141  Not this shows best finale
+
+-1.11, -1.12, positive, negative, wrong
+No.142  What the..where's the rest of it?
+
+-2.2, -1.73, negative, negative, right
+No.143  Decent climax.
+
+-7.35, -7.02, negative, negative, right
+No.144  I'm over Clarke
+
+-10.57, -9.95, negative, negative, right
+No.145  Not great
+
+-3.08, -3.01, negative, negative, right
+No.146  Missing in Action
+
+-1.25, -1.01, negative, negative, right
+No.147  Can we move pls
+
+-3.06, -2.96, negative, negative, right
+No.148  Disappointed fan
+
+-1.11, -1.15, positive, negative, wrong
+No.149  Slower start of the season
+
+-1.22, -1.26, positive, negative, wrong
+No.150  O'
+
+-2.25, -1.95, negative, negative, right
+No.151  Ravens ruthless
+
+-1.22, -1.26, positive, negative, wrong
+No.152  THE TIME FOR FILLER IS OVER
+
+-1.3, -1.23, negative, negative, right
+No.153  Pie Filling Episode
+
+-0.31, -0.29, negative, negative, right
+No.154  Boooooriiiiiing!!!
+
+-1.91, -2.01, positive, negative, wrong
+No.155  Clarke's on her way to....
+
+-5.96, -5.82, negative, negative, right
+No.156  Great series, great season, BS episode
+
+-0.31, -0.29, negative, negative, right
+No.157  Time anamolies and on a search for Bellamy.
+
+-4.14, -3.84, negative, negative, right
+No.158  ANOTHER DUMBASS EPISODES OF THE 100
+
+-2.09, -2.22, positive, negative, wrong
+No.159  The other side of a new world
+
+-0.31, -0.29, negative, negative, right
+No.160  The 100 become more one CW show.
+
+-1.91, -1.94, positive, negative, wrong
+No.161  disappointed by the story telling.
+
+-2.97, -2.84, negative, negative, right
+No.162  Thank god it's over
+
+-1.11, -1.12, positive, negative, wrong
+No.163  ...before the storm
+
+-5.57, -5.17, negative, negative, right
+No.164  It's getting crowded
+
+-7.42, -7.15, negative, negative, right
+No.165  DO NOT WASTE YOUR TIME!!!
+
+-3.88, -3.8, negative, negative, right
+No.166  Lost between season 2 and 3..
+
+-2.78, -2.97, positive, negative, wrong
+No.167  Before finale filler.
+
+-2.02, -2.08, positive, negative, wrong
+No.168  Pest
+
+-5.03, -5.11, positive, negative, wrong
+No.169  Let's make peace
+
+-7.4, -7.79, positive, negative, wrong
+No.170  Bellamy's fate
+
+-5.92, -5.87, negative, negative, right
+No.171  Absolutely RIDICULOUS!
+
+-0.31, -0.29, negative, negative, right
+No.172  What the heck was this
+
+-1.29, -1.21, negative, negative, right
+No.173  If this continues i don't think i will be able to watch this show anymore.
+
+-2.85, -2.7, negative, negative, right
+No.174  Back to idiotic story again.
+
+-2.14, -2.22, positive, negative, wrong
+No.175  Flashback's Reveal Blake Siblings Heartache.
+
+-6.02, -5.9, negative, negative, right
+No.176  Grounder's territory
+
+-10.04, -9.97, negative, negative, right
+No.177  Another Solid Episode
+
+-7.88, -7.96, positive, negative, wrong
+No.178  The City of Light's storyline is the only enjoyable thing here.
+
+-1.29, -1.21, negative, negative, right
+No.179  Twilight last gleaming is the beginning of season ones biggest problem
+
+-2.09, -2.04, negative, negative, right
+No.180  Good show with a lot bad character decisions
+
+-15.59, -15.36, negative, negative, right
+No.181  Pike Slander
+
+-1.3, -1.23, negative, negative, right
+No.182  Talking about surprises...
+
+-8.05, -8.35, positive, negative, wrong
+No.183  Baby, baby
+
+-8.26, -8.42, positive, negative, wrong
+No.184  Criminal Activity Condoned
+
+-2.85, -2.66, negative, negative, right
+No.185  snoozefest
+
+-1.29, -1.21, negative, negative, right
+No.186  Absurd episode.
+
+-3.24, -3.49, positive, negative, wrong
+No.187  Hate
+
+-7.21, -7.26, positive, negative, wrong
+No.188  Finn's Wager
+
+-4.73, -4.85, positive, negative, wrong
+No.189  Put a Lincoln in your life
+
+-4.66, -4.76, positive, negative, wrong
+No.190  Lol, also it's that's an Fog of War.
+
+-0.31, -0.29, negative, negative, right
+No.191  shiftworker closing time.
+
+-3.17, -2.8, negative, negative, right
+No.192  OK.
+
+-0.31, -0.29, negative, negative, right
+No.193  What's with prophets and deserts?
+
+-4.25, -4.15, negative, negative, right
+No.194  I agree with previous reviews...
+
+-5.68, -4.86, negative, negative, right
+No.195  UNFAIR
+
+-0.31, -0.29, negative, negative, right
+No.196  I wish Finn got killed
+
+-2.1, -2.05, negative, negative, right
+No.197  Blood
+
+-4.84, -4.74, negative, negative, right
+No.198  Interesting times
+
+-7.68, -7.96, positive, negative, wrong
+No.199  Adults came.. we are in charge now...
+
+-3.25, -3.36, positive, negative, wrong
+No.200  She Walks!
+
+-4.67, -4.41, negative, negative, right
+No.201  Allie's storyline is damn interesting.
+
+-2.02, -2.08, positive, negative, wrong
+No.202  1000s (with arrows and spears) against hundreds (with automatics weapons)
+
+-0.31, -0.29, negative, negative, right
+No.203  Rescue mission
+
+-6.53, -6.58, positive, negative, wrong
+No.204  Interesting plot, boring & annoying characters
+
+-2.97, -2.84, negative, negative, right
+No.205  Ups, the marmalade
+
+-7.08, -7.14, positive, negative, wrong
+No.206  What makes a series tick?
+
+-5.65, -5.58, negative, negative, right
+No.207  Had potential but quickly ruined with cliche teenage issues
+
+-2.2, -2.32, positive, negative, wrong
+No.208  The Ark is interesting, The Earth is not.
+
+-2.09, -2.04, negative, negative, right
+No.209  This movie is for Kids
+
+-0.31, -0.29, negative, negative, right
+No.210  A So-So Second Episode
+
+-8.17, -8.0, negative, negative, right
+No.211  So boring, so pointless...I fell asleep
+
+-6.35, -6.52, positive, negative, wrong
+No.212  Hungry
+
+-6.75, -6.86, positive, negative, wrong
+No.213  Just watch and stop thinking
+
+-2.89, -3.04, positive, negative, wrong
+The prediction correctness is 49.77%
