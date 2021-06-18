@@ -506,7 +506,7 @@ def process_text(dataset):
     removed_words = set()
     # use stopwords of nltk
     stop_words = stopwords.words('english')
-    for review_item in dataset['review-comment']:
+    for review_item in dataset['review-comment'].tolist():
         # use regex to replace some pattern
         regex_review_item = re.sub(r'[\.\/\-\+]',' ',review_item)
         # lowercase word and check if it is alpha
@@ -539,7 +539,7 @@ def process_testing_text(dataset,nb_model):
     # use stopwords of nltk
     stop_words = stopwords.words('english')
     # for index, row in tqdm(dataset.iterrows(),desc='processing testing text'):
-    for item_comment in tqdm(dataset['review-comment'],desc='processing testing text'):
+    for item_comment in tqdm(dataset['review-comment'].tolist(),desc='processing testing text'):
         # use regex to replace some pattern
         # row["review-comment"] = re.sub(r'[\.\/\-\+]',' ',row["review-comment"])
         item_comment = re.sub(r'[\.\/\-\+]',' ',item_comment)
