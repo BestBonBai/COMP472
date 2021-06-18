@@ -488,7 +488,7 @@ def process_text(dataset):
     stop_words = stopwords.words('english')
     for review_item in dataset['review-comment']:
         # use regex to replace some pattern
-        regex_review_item = re.sub(r'[\.\/\-\+]','',review_item)
+        regex_review_item = re.sub(r'[\.\/\-\+]',' ',review_item)
         # lowercase word and check if it is alpha
         word_data = [ word.lower() for word in word_tokenize(regex_review_item) if word.isalpha() and len(word) > 1]
         # update the removed_words set

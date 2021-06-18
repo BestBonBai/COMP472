@@ -1,640 +1,427 @@
 No.1  The last party
-
--108.97, -116.05, positive, positive, right
+-111.83, -118.51, positive, positive, right
 No.2  Kept me wanting more!
-
--58.06, -58.02, negative, positive, wrong
+-54.42, -54.81, positive, positive, right
 No.3  One of the best episode
-
--24.05, -25.33, positive, positive, right
+-20.67, -22.26, positive, positive, right
 No.4  This is awesome
-
--36.39, -35.68, negative, positive, wrong
+-39.9, -38.7, negative, positive, wrong
 No.5  Everything is settled but..
-
--37.53, -37.25, negative, positive, wrong
+-37.44, -37.16, negative, positive, wrong
 No.6  Just 100
-
--104.07, -106.41, positive, positive, right
+-106.3, -108.77, positive, positive, right
 No.7  This episode ended excellently.
-
--33.68, -35.05, positive, positive, right
+-33.21, -34.58, positive, positive, right
 No.8  Really great episode!
-
--35.4, -37.08, positive, positive, right
+-35.4, -37.09, positive, positive, right
 No.9  The Other Side.
-
--12.56, -13.82, positive, positive, right
+-12.57, -13.8, positive, positive, right
 No.10  Bellamy to the rescue
-
--118.3, -121.92, positive, positive, right
+-127.42, -131.63, positive, positive, right
 No.11  These people are somethin else aren't they ?
-
--63.99, -64.99, positive, positive, right
+-63.25, -63.87, positive, positive, right
 No.12  Every minute of this episode was satisfying from start to finish.
-
--41.19, -44.89, positive, positive, right
+-44.26, -48.09, positive, positive, right
 No.13  Weird story set-up.
-
--29.63, -26.63, negative, positive, wrong
+-29.58, -26.61, negative, positive, wrong
 No.14  Battle Royale
-
--85.07, -86.16, positive, positive, right
+-84.44, -85.75, positive, positive, right
 No.15  Hunger Games vibes.
-
--24.15, -26.05, positive, positive, right
+-24.08, -26.0, positive, positive, right
 No.16  Facing the end.
-
--39.97, -42.22, positive, positive, right
+-39.87, -42.16, positive, positive, right
 No.17  It seems like it's starting to get better.
-
--214.8, -222.93, positive, positive, right
+-223.06, -231.55, positive, positive, right
 No.18  Good start.
-
--11.93, -12.7, positive, positive, right
+-11.77, -12.62, positive, positive, right
 No.19  Hope
-
--50.72, -50.61, negative, positive, wrong
+-53.28, -53.05, negative, positive, wrong
 No.20  I seem to have found hope again for this show
-
--98.9, -99.82, positive, positive, right
+-98.73, -99.74, positive, positive, right
 No.21  Don't believe the negative reviews, people are still mad from last week's problems.
-
--70.37, -70.41, positive, positive, right
+-67.28, -67.45, positive, positive, right
 No.22  The 100 is BACK
-
--69.08, -70.82, positive, positive, right
+-68.96, -70.4, positive, positive, right
 No.23  Captivating and Heart Clinching
-
--84.11, -84.67, positive, positive, right
+-80.61, -81.47, positive, positive, right
 No.24  Our delinquents attempt to save their friend Raven from the clutches of ALIE
-
--33.91, -36.1, positive, positive, right
+-36.9, -38.91, positive, positive, right
 No.25  back to its roots
-
--57.31, -63.63, positive, positive, right
+-57.28, -63.58, positive, positive, right
 No.26  the 100 is back
-
--51.55, -55.79, positive, positive, right
+-59.69, -64.19, positive, positive, right
 No.27  An intense, well-written episode with superb acting
-
--100.62, -104.58, positive, positive, right
+-97.73, -101.54, positive, positive, right
 No.28  Other Opinions based on previous episodes
-
--52.35, -54.09, positive, positive, right
+-52.33, -54.02, positive, positive, right
 No.29  One of the Best Episodes
-
--68.14, -71.09, positive, positive, right
+-64.19, -67.45, positive, positive, right
 No.30  This episode continues to evolve and impress me with character development
-
--40.97, -40.33, negative, positive, wrong
+-40.92, -40.29, negative, positive, wrong
 No.31  Holy cow this is so intense! Amazing episode I love it!!
-
--51.89, -54.9, positive, positive, right
+-51.65, -54.7, positive, positive, right
 No.32  Follow the light
-
--134.47, -140.46, positive, positive, right
+-140.4, -146.58, positive, positive, right
 No.33  Wait. Immature sad cases rating it 1 star because..???
-
--139.28, -137.13, negative, positive, wrong
+-153.16, -149.55, negative, positive, wrong
 No.34  Things are getting complicated
-
--124.14, -129.89, positive, positive, right
+-123.89, -129.67, positive, positive, right
 No.35  Intense, dramatic and fair. I like it!
-
--45.02, -47.15, positive, positive, right
+-45.05, -47.1, positive, positive, right
 No.36  I do it every day
-
--99.1, -104.96, positive, positive, right
+-98.73, -104.83, positive, positive, right
 No.37  Season 4 saved this show
-
--61.41, -60.0, negative, positive, wrong
+-61.25, -59.6, negative, positive, wrong
 No.38  The 100 is an amazing show!
-
--38.83, -39.03, positive, positive, right
+-41.7, -42.03, positive, positive, right
 No.39  A perfect episode
-
--74.15, -78.47, positive, positive, right
+-73.91, -78.13, positive, positive, right
 No.40  The 100 is back bitches!
-
--72.29, -76.65, positive, positive, right
+-75.43, -80.06, positive, positive, right
 No.41  The 100
-
--35.59, -37.44, positive, positive, right
+-35.47, -37.31, positive, positive, right
 No.42  The story looks messed up but ok.
-
--25.62, -25.76, positive, positive, right
+-25.58, -25.74, positive, positive, right
 No.43  Outstanding writing, surprises
-
--80.97, -80.2, negative, positive, wrong
+-80.92, -80.18, negative, positive, wrong
 No.44  I'm Still Hooked !
-
--192.17, -189.06, negative, positive, wrong
+-192.08, -188.91, negative, positive, wrong
 No.45  This is fun.
-
--20.98, -22.98, positive, positive, right
+-17.68, -19.42, positive, positive, right
 No.46  A great start to the two-part end of the season
-
--59.27, -61.18, positive, positive, right
+-59.24, -61.14, positive, positive, right
 No.47  Preparing for an epic finale
-
--45.87, -49.22, positive, positive, right
+-45.71, -49.11, positive, positive, right
 No.48  To the end.
-
--12.65, -13.92, positive, positive, right
+-12.56, -13.56, positive, positive, right
 No.49  Wow
-
--14.02, -14.19, positive, positive, right
+-17.24, -17.22, negative, positive, wrong
 No.50  I expected a bad episode given the reviews
-
--27.12, -26.99, negative, positive, wrong
+-27.06, -26.94, negative, positive, wrong
 No.51  This episode makes me want to read the book!
-
--78.05, -80.5, positive, positive, right
+-80.87, -83.17, positive, positive, right
 No.52  Phenomenal
-
--36.58, -37.41, positive, positive, right
+-39.78, -40.63, positive, positive, right
 No.53  Is there any chance of survival?
-
--129.55, -133.71, positive, positive, right
+-135.11, -139.55, positive, positive, right
 No.54  To the Producers and the Directors
-
--56.49, -54.57, negative, positive, wrong
+-61.95, -60.18, negative, positive, wrong
 No.55  Despite the reviews, great episode
-
--73.75, -73.98, positive, positive, right
+-73.68, -73.99, positive, positive, right
 No.56  How gravity is generated in the director's eyes?
-
--3.52, -3.8, positive, positive, right
+-3.52, -3.81, positive, positive, right
 No.57  The best season premiere yet!
-
--51.07, -53.58, positive, positive, right
+-54.15, -57.04, positive, positive, right
 No.58  Great start
-
--16.05, -16.61, positive, positive, right
+-16.04, -16.58, positive, positive, right
 No.59  May we meet again
-
--10.43, -11.12, positive, positive, right
+-10.38, -11.1, positive, positive, right
 No.60  Kind of annoying, not perfect, but great.
-
--12.12, -12.36, positive, positive, right
+-12.01, -12.29, positive, positive, right
 No.61  Helicopter Mother
-
--6.07, -6.06, negative, positive, wrong
+-6.08, -6.07, negative, positive, wrong
 No.62  The plot development is insane!
-
--8.08, -7.88, negative, positive, wrong
+-8.09, -7.89, negative, positive, wrong
 No.63  One man mission
-
--162.78, -171.01, positive, positive, right
+-159.58, -167.32, positive, positive, right
 No.64  Intense!
-
--19.27, -19.27, negative, positive, wrong
+-16.38, -16.42, positive, positive, right
 No.65  OMG
-
--11.87, -13.28, positive, positive, right
+-11.89, -13.29, positive, positive, right
 No.66  AAAARRRRGGHHHH
-
--51.18, -51.4, positive, positive, right
+-51.13, -51.28, positive, positive, right
 No.67  The Hundred
-
--28.6, -28.29, negative, positive, wrong
+-31.6, -31.31, negative, positive, wrong
 No.68  Impossible choices
-
--365.59, -367.96, positive, positive, right
+-376.51, -377.92, positive, positive, right
 No.69  Another good episode
-
--15.77, -15.99, positive, positive, right
+-15.75, -15.95, positive, positive, right
 No.70  Spotlight on Octavia.
-
--34.82, -34.62, negative, positive, wrong
+-34.8, -34.54, negative, positive, wrong
 No.71  Okey okey
-
--20.96, -21.11, positive, positive, right
+-20.97, -21.01, positive, positive, right
 No.72  Insanely Intense
-
--102.2, -99.53, negative, positive, wrong
+-102.26, -99.56, negative, positive, wrong
 No.73  Intense
-
--10.63, -12.91, positive, positive, right
+-10.64, -12.91, positive, positive, right
 No.74  I was blown away
-
--4.41, -4.66, positive, positive, right
+-4.41, -4.6, positive, positive, right
 No.75  IT WAS
-
 -3.04, -3.11, positive, positive, right
 No.76  A Whole New World!
-
--40.39, -41.12, positive, positive, right
+-40.43, -40.99, positive, positive, right
 No.77  This episode is amazing!!!
-
--9.74, -10.34, positive, positive, right
+-9.75, -10.31, positive, positive, right
 No.78  Best episode so far of what could be the best season of The 100
-
--53.38, -53.97, positive, positive, right
+-53.39, -53.8, positive, positive, right
 No.79  This season is SO good
-
--36.48, -37.97, positive, positive, right
+-36.47, -37.91, positive, positive, right
 No.80  Omg
-
--9.63, -11.1, positive, positive, right
+-9.64, -11.1, positive, positive, right
 No.81  Interesting episode.
-
--16.07, -16.5, positive, positive, right
+-16.04, -16.43, positive, positive, right
 No.82  Great begginings
-
--11.84, -11.82, negative, positive, wrong
+-14.89, -14.74, negative, positive, wrong
 No.83  EXCELLENT!!!
-
 -6.73, -5.7, negative, positive, wrong
 No.84  I love this show
-
--21.25, -22.67, positive, positive, right
+-21.19, -22.63, positive, positive, right
 No.85  Good second.
-
--57.27, -56.79, negative, positive, wrong
+-53.51, -53.41, negative, positive, wrong
 No.86  Really good episode
-
--10.76, -11.44, positive, positive, right
+-10.75, -11.41, positive, positive, right
 No.87  Good episode
-
--7.09, -7.93, positive, positive, right
+-7.07, -7.92, positive, positive, right
 No.88  Face Your Demons Already
-
--40.63, -41.67, positive, positive, right
+-40.56, -41.57, positive, positive, right
 No.89  Wonderful Start
-
--34.14, -34.35, positive, positive, right
+-34.14, -34.28, positive, positive, right
 No.90  A Breathtaking Beginning
-
--72.04, -76.87, positive, positive, right
+-81.45, -87.43, positive, positive, right
 No.91  Good start with a lot of mystery...
-
--38.38, -38.39, positive, positive, right
+-41.41, -41.82, positive, positive, right
 No.92  Heda vs Bloodreina
-
--111.53, -113.97, positive, positive, right
+-108.36, -110.73, positive, positive, right
 No.93  Tough decision.
-
--24.61, -25.77, positive, positive, right
+-21.65, -22.92, positive, positive, right
 No.94  Jorouuuuuum
-
--21.3, -24.06, positive, positive, right
+-21.32, -24.07, positive, positive, right
 No.95  She is an enemy of Wonkru.
-
--42.77, -43.47, positive, positive, right
+-42.75, -43.45, positive, positive, right
 No.96  Well-doned.
-
--10.61, -11.76, positive, positive, right
+-10.62, -11.77, positive, positive, right
 No.97  Pandora's box has been opened
-
--22.42, -23.65, positive, positive, right
+-22.43, -23.63, positive, positive, right
 No.98  A dangerous deal...
-
--99.52, -101.38, positive, positive, right
+-92.05, -94.68, positive, positive, right
 No.99  Another great episode
-
--9.84, -11.03, positive, positive, right
+-9.78, -11.0, positive, positive, right
 No.100  I can give you 283 reasons to love this episode
-
--9.69, -10.75, positive, positive, right
+-9.68, -10.73, positive, positive, right
 No.101  Absolutely amazing
-
--4.01, -4.42, positive, positive, right
+-4.0, -4.41, positive, positive, right
 No.102  Left Behind
-
--70.58, -76.01, positive, positive, right
+-70.48, -76.0, positive, positive, right
 No.103  One Word.... AMAZING
-
--24.42, -25.6, positive, positive, right
+-24.4, -25.53, positive, positive, right
 No.104  The Octavia show!!
-
--49.11, -49.69, positive, positive, right
+-57.12, -57.68, positive, positive, right
 No.105  Amazing.
-
--11.95, -13.04, positive, positive, right
+-11.89, -12.95, positive, positive, right
 No.106  Damn.
-
--102.06, -108.28, positive, positive, right
+-102.04, -108.04, positive, positive, right
 No.107  A notable end for a notable season
-
--159.81, -169.75, positive, positive, right
+-162.51, -172.61, positive, positive, right
 No.108  A well done performance by all cast and one hell of a season premiere
-
--72.28, -77.02, positive, positive, right
+-78.44, -83.99, positive, positive, right
 No.109  A good start.
-
--22.74, -24.47, positive, positive, right
+-29.01, -31.19, positive, positive, right
 No.110  The 100 is back, B**ches!
-
--167.38, -173.02, positive, positive, right
+-174.91, -180.89, positive, positive, right
 No.111  Yes yes yes
-
--14.55, -16.47, positive, positive, right
+-14.51, -16.43, positive, positive, right
 No.112  10/10
-
 -9.28, -9.37, positive, positive, right
 No.113  Best Season So Far
-
--5.09, -5.57, positive, positive, right
+-5.07, -5.55, positive, positive, right
 No.114  That's war
-
--135.27, -139.22, positive, positive, right
+-138.35, -142.32, positive, positive, right
 No.115  What. An. Episode.
-
--17.47, -18.33, positive, positive, right
+-20.36, -21.11, positive, positive, right
 No.116  That last scene tho
-
--14.49, -15.02, positive, positive, right
+-14.44, -14.98, positive, positive, right
 No.117  Always good!
-
--22.68, -22.05, negative, positive, wrong
+-22.69, -22.06, negative, positive, wrong
 No.118  The Things We Do For Peace.
-
--61.62, -63.54, positive, positive, right
+-61.55, -63.44, positive, positive, right
 No.119  Keeps up the great narrative of the previous episodes (no spoilers)
-
--72.53, -76.68, positive, positive, right
+-72.53, -76.58, positive, positive, right
 No.120  "My sister, my responsibility."
-
--25.59, -26.99, positive, positive, right
+-25.61, -26.96, positive, positive, right
 No.121  Slaughter
-
--137.27, -146.58, positive, positive, right
+-140.08, -149.73, positive, positive, right
 No.122  A very good episode
-
--22.42, -24.11, positive, positive, right
+-22.35, -24.04, positive, positive, right
 No.123  Intense episode.
-
--12.16, -12.22, positive, positive, right
+-12.17, -12.22, positive, positive, right
 No.124  Which side are you on?
-
--65.21, -62.28, negative, positive, wrong
+-65.21, -62.22, negative, positive, wrong
 No.125  The episode is good but,
-
--14.23, -14.64, positive, positive, right
+-14.15, -14.54, positive, positive, right
 No.126  Excellent episode
-
--18.76, -19.53, positive, positive, right
+-18.78, -19.47, positive, positive, right
 No.127  The Distance
-
--80.31, -83.25, positive, positive, right
+-83.3, -86.39, positive, positive, right
 No.128  War begins
-
--10.36, -10.23, negative, positive, wrong
+-10.37, -10.24, negative, positive, wrong
 No.129  One of the best episode of Season 2.
-
--18.31, -20.88, positive, positive, right
+-18.29, -20.89, positive, positive, right
 No.130  Understanding war.
-
--16.59, -16.23, negative, positive, wrong
+-16.59, -16.21, negative, positive, wrong
 No.131  Another amazing episode!
-
--32.63, -34.09, positive, positive, right
+-32.55, -34.03, positive, positive, right
 No.132  Mystery caves!!!
-
--39.77, -37.6, negative, negative, right
+-39.62, -37.42, negative, negative, right
 No.133  Insufferable
-
--10.09, -10.28, positive, negative, wrong
+-10.05, -10.26, positive, negative, wrong
 No.134  Dissapointing Filler Episode
-
--28.58, -30.44, positive, negative, wrong
+-28.37, -30.44, positive, negative, wrong
 No.135  downward spiral
-
--2.3, -2.41, positive, negative, wrong
+-2.29, -2.39, positive, negative, wrong
 No.136  Queen of the Cannibals.
-
--49.99, -53.53, positive, negative, wrong
+-53.24, -56.53, positive, negative, wrong
 No.137  Good episode terrible sound mixing
-
--26.92, -27.58, positive, negative, wrong
+-26.94, -27.57, positive, negative, wrong
 No.138  Build up
-
--18.32, -19.89, positive, negative, wrong
+-18.13, -19.78, positive, negative, wrong
 No.139  Unlike all of you I didn't like this episode
-
 -7.18, -7.63, positive, negative, wrong
 No.140  Left hanging
-
--67.0, -65.61, negative, negative, right
+-70.24, -68.56, negative, negative, right
 No.141  Not this shows best finale
-
--31.81, -34.27, positive, negative, wrong
+-31.79, -34.19, positive, negative, wrong
 No.142  What the..where's the rest of it?
-
--22.55, -24.42, positive, negative, wrong
+-22.46, -24.33, positive, negative, wrong
 No.143  Decent climax.
-
--94.2, -95.11, positive, negative, wrong
+-90.83, -92.05, positive, negative, wrong
 No.144  I'm over Clarke
-
--90.15, -91.38, positive, negative, wrong
+-89.83, -91.03, positive, negative, wrong
 No.145  Not great
-
--14.21, -13.39, negative, negative, right
+-14.17, -13.29, negative, negative, right
 No.146  Missing in Action
-
--15.21, -15.56, positive, negative, wrong
+-18.26, -18.49, positive, negative, wrong
 No.147  Can we move pls
-
--78.09, -79.84, positive, negative, wrong
+-80.08, -82.18, positive, negative, wrong
 No.148  Disappointed fan
-
--29.87, -30.07, positive, negative, wrong
+-29.88, -30.03, positive, negative, wrong
 No.149  Slower start of the season
-
--20.86, -20.92, positive, negative, wrong
+-20.68, -20.79, positive, negative, wrong
 No.150  O'
-
--3.79, -4.07, positive, negative, wrong
+-3.79, -4.05, positive, negative, wrong
 No.151  Ravens ruthless
-
--21.2, -22.13, positive, negative, wrong
+-27.41, -27.97, positive, negative, wrong
 No.152  THE TIME FOR FILLER IS OVER
-
--34.8, -33.13, negative, negative, right
+-37.86, -36.34, negative, negative, right
 No.153  Pie Filling Episode
-
--10.4, -10.06, negative, negative, right
+-10.4, -10.05, negative, negative, right
 No.154  Boooooriiiiiing!!!
-
--25.69, -25.09, negative, negative, right
+-25.71, -25.01, negative, negative, right
 No.155  Clarke's on her way to....
-
--74.94, -75.71, positive, negative, wrong
+-80.27, -80.81, positive, negative, wrong
 No.156  Great series, great season, BS episode
-
--11.6, -11.81, positive, negative, wrong
+-11.61, -11.81, positive, negative, wrong
 No.157  Time anamolies and on a search for Bellamy.
-
--36.92, -33.79, negative, negative, right
+-36.61, -33.34, negative, negative, right
 No.158  ANOTHER DUMBASS EPISODES OF THE 100
-
--80.05, -79.89, negative, negative, right
+-82.46, -82.26, negative, negative, right
 No.159  The other side of a new world
-
--15.67, -16.19, positive, negative, wrong
+-15.55, -16.07, positive, negative, wrong
 No.160  The 100 become more one CW show.
-
--14.81, -14.71, negative, negative, right
+-14.83, -14.72, negative, negative, right
 No.161  disappointed by the story telling.
-
 -82.92, -79.17, negative, negative, right
 No.162  Thank god it's over
-
--23.33, -22.71, negative, negative, right
+-25.69, -25.11, negative, negative, right
 No.163  ...before the storm
-
--96.48, -101.02, positive, negative, wrong
+-96.12, -99.82, positive, negative, wrong
 No.164  It's getting crowded
-
--129.63, -135.31, positive, negative, wrong
+-137.33, -142.63, positive, negative, wrong
 No.165  DO NOT WASTE YOUR TIME!!!
-
--81.69, -83.34, positive, negative, wrong
+-83.86, -85.25, positive, negative, wrong
 No.166  Lost between season 2 and 3..
-
--42.51, -42.78, positive, negative, wrong
+-42.49, -42.69, positive, negative, wrong
 No.167  Before finale filler.
-
--11.95, -12.7, positive, negative, wrong
+-11.89, -12.62, positive, negative, wrong
 No.168  Pest
-
--99.32, -101.21, positive, negative, wrong
+-99.23, -101.03, positive, negative, wrong
 No.169  Let's make peace
-
--134.07, -138.79, positive, negative, wrong
+-132.86, -137.89, positive, negative, wrong
 No.170  Bellamy's fate
-
--91.51, -91.71, positive, negative, wrong
+-94.63, -94.39, negative, negative, right
 No.171  Absolutely RIDICULOUS!
-
--20.56, -18.94, negative, negative, right
+-20.57, -18.95, negative, negative, right
 No.172  What the heck was this
-
--22.61, -21.31, negative, negative, right
+-22.59, -21.21, negative, negative, right
 No.173  If this continues i don't think i will be able to watch this show anymore.
-
--68.45, -70.47, positive, negative, wrong
+-68.45, -70.4, positive, negative, wrong
 No.174  Back to idiotic story again.
-
--30.43, -30.88, positive, negative, wrong
+-30.26, -30.76, positive, negative, wrong
 No.175  Flashback's Reveal Blake Siblings Heartache.
-
--111.62, -115.51, positive, negative, wrong
+-108.28, -111.77, positive, negative, wrong
 No.176  Grounder's territory
-
--119.39, -127.17, positive, negative, wrong
+-115.79, -123.6, positive, negative, wrong
 No.177  Another Solid Episode
-
--123.45, -123.97, positive, negative, wrong
+-125.6, -125.83, positive, negative, wrong
 No.178  The City of Light's storyline is the only enjoyable thing here.
-
--8.35, -8.85, positive, negative, wrong
+-8.31, -8.83, positive, negative, wrong
 No.179  Twilight last gleaming is the beginning of season ones biggest problem
-
--29.21, -30.25, positive, negative, wrong
+-29.16, -30.17, positive, negative, wrong
 No.180  Good show with a lot bad character decisions
-
--243.61, -241.99, negative, negative, right
+-245.74, -244.28, negative, negative, right
 No.181  Pike Slander
-
--14.43, -14.06, negative, negative, right
+-14.43, -14.03, negative, negative, right
 No.182  Talking about surprises...
-
--140.52, -148.63, positive, negative, wrong
+-140.51, -148.64, positive, negative, wrong
 No.183  Baby, baby
-
--124.02, -127.95, positive, negative, wrong
+-134.69, -138.41, positive, negative, wrong
 No.184  Criminal Activity Condoned
-
--65.7, -64.99, negative, negative, right
+-65.6, -65.02, negative, negative, right
 No.185  snoozefest
-
--101.21, -98.71, negative, negative, right
+-101.17, -98.55, negative, negative, right
 No.186  Absurd episode.
-
--38.79, -34.81, negative, negative, right
+-38.8, -34.71, negative, negative, right
 No.187  Hate
-
--128.43, -135.39, positive, negative, wrong
+-127.89, -135.13, positive, negative, wrong
 No.188  Finn's Wager
-
--138.36, -144.93, positive, negative, wrong
+-145.51, -151.95, positive, negative, wrong
 No.189  Put a Lincoln in your life
-
--131.72, -138.32, positive, negative, wrong
+-134.78, -141.47, positive, negative, wrong
 No.190  Lol, also it's that's an Fog of War.
-
--7.79, -8.78, positive, negative, wrong
+-7.8, -8.77, positive, negative, wrong
 No.191  shiftworker closing time.
-
--53.19, -50.98, negative, negative, right
+-49.59, -47.65, negative, negative, right
 No.192  OK.
-
--7.79, -8.78, positive, negative, wrong
+-7.8, -8.77, positive, negative, wrong
 No.193  What's with prophets and deserts?
-
--93.22, -102.17, positive, negative, wrong
+-99.33, -108.28, positive, negative, wrong
 No.194  I agree with previous reviews...
-
--33.41, -31.46, negative, negative, right
+-33.45, -31.43, negative, negative, right
 No.195  UNFAIR
-
--8.06, -7.69, negative, negative, right
+-7.99, -7.67, negative, negative, right
 No.196  I wish Finn got killed
-
--13.41, -12.99, negative, negative, right
+-15.9, -15.42, negative, negative, right
 No.197  Blood
-
--152.1, -161.53, positive, negative, wrong
+-155.08, -164.32, positive, negative, wrong
 No.198  Interesting times
-
--94.77, -99.84, positive, negative, wrong
+-98.21, -102.84, positive, negative, wrong
 No.199  Adults came.. we are in charge now...
-
--39.06, -37.25, negative, negative, right
+-41.47, -39.65, negative, negative, right
 No.200  She Walks!
-
--71.51, -75.45, positive, negative, wrong
+-75.08, -78.35, positive, negative, wrong
 No.201  Allie's storyline is damn interesting.
-
--12.86, -13.2, positive, negative, wrong
+-12.8, -13.17, positive, negative, wrong
 No.202  1000s (with arrows and spears) against hundreds (with automatics weapons)
-
--44.33, -42.59, negative, negative, right
+-44.35, -42.58, negative, negative, right
 No.203  Rescue mission
-
--153.26, -160.34, positive, negative, wrong
+-152.7, -160.03, positive, negative, wrong
 No.204  Interesting plot, boring & annoying characters
-
--18.31, -17.9, negative, negative, right
+-18.25, -17.83, negative, negative, right
 No.205  Ups, the marmalade
-
--127.28, -130.82, positive, negative, wrong
+-123.58, -127.36, positive, negative, wrong
 No.206  What makes a series tick?
-
--109.55, -112.14, positive, negative, wrong
+-109.11, -112.05, positive, negative, wrong
 No.207  Had potential but quickly ruined with cliche teenage issues
-
--33.9, -33.5, negative, negative, right
+-36.32, -35.85, negative, negative, right
 No.208  The Ark is interesting, The Earth is not.
-
--17.9, -18.18, positive, negative, wrong
+-17.71, -18.1, positive, negative, wrong
 No.209  This movie is for Kids
-
--27.37, -28.11, positive, negative, wrong
+-27.32, -28.12, positive, negative, wrong
 No.210  A So-So Second Episode
-
--125.86, -128.24, positive, negative, wrong
+-125.3, -128.09, positive, negative, wrong
 No.211  So boring, so pointless...I fell asleep
-
--61.29, -59.42, negative, negative, right
+-61.28, -59.3, negative, negative, right
 No.212  Hungry
-
--179.14, -184.54, positive, negative, wrong
+-193.08, -198.93, positive, negative, wrong
 No.213  Just watch and stop thinking
-
--59.97, -59.02, negative, negative, right
-The prediction correctness is 62.91%
+-60.04, -58.98, negative, negative, right
+The prediction correctness is 63.85%
