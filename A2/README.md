@@ -55,7 +55,6 @@ nltk.download('stopwords')
 
 ### Run Instructions:
 
-#### first method:
 1. cd into `A2` folder
 2. run `scrape_tv_series.py` using `python3 scrape_tv_series.py`
 3. following the input requirements in the terminal

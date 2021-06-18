@@ -226,10 +226,14 @@ def rebuild_model_by_frequency(a_df_model, cut_frequency = 0, cut_top = 0):
     print(f'[Rebuild Model by Frequency] new_size_vocabulary is : {new_size_vocabulary}')
     # print(df_infrequent_model)
 
-    for i in range(len(df_infrequent_model)):
-        # rewrite the p-wi-positive and p-wi-negative
-        df_infrequent_model.iloc[i,3] = np.round( (df_infrequent_model.iloc[i,1] + smoothing) / new_total_nb_words_positive,6)
-        df_infrequent_model.iloc[i,4] = np.round( (df_infrequent_model.iloc[i,2] + smoothing) / new_total_nb_words_negative,6)
+    # for i in range(len(df_infrequent_model)):
+    #     # rewrite the p-wi-positive and p-wi-negative
+    #     df_infrequent_model.iloc[i,3] = np.round( (df_infrequent_model.iloc[i,1] + smoothing) / new_total_nb_words_positive,6)
+    #     df_infrequent_model.iloc[i,4] = np.round( (df_infrequent_model.iloc[i,2] + smoothing) / new_total_nb_words_negative,6)
+
+    # optimal dataframe speed above
+    df_infrequent_model["p-wi-positive"] = np.round( (df_infrequent_model["freq-positive"] + smoothing) / new_total_nb_words_positive,6)
+    df_infrequent_model["p-wi-negative"] = np.round( (df_infrequent_model["freq-negative"] + smoothing) / new_total_nb_words_negative,6)
 
     print("[news] Success rebuild model by frequency!")
     return df_infrequent_model, new_size_vocabulary
@@ -258,10 +262,15 @@ def rebuild_model_by_smoothing(a_df_model, current_smoothing):
     print(f'[Rebuild Model by Smoothing] new_total_nb_words_positive : {new_total_nb_words_positive}, new_total_nb_words_negative : {new_total_nb_words_negative}')
     # print(df_infrequent_model)
 
-    for i in range(len(df_smoothing_model)):
-        # rewrite the p-wi-positive and p-wi-negative
-        df_smoothing_model.iloc[i,3] = np.round( (df_smoothing_model.iloc[i,1] + smoothing) / new_total_nb_words_positive,6)
-        df_smoothing_model.iloc[i,4] = np.round( (df_smoothing_model.iloc[i,2] + smoothing) / new_total_nb_words_negative,6)
+    # for i in range(len(df_smoothing_model)):
+    #     # rewrite the p-wi-positive and p-wi-negative
+    #     df_smoothing_model.iloc[i,3] = np.round( (df_smoothing_model.iloc[i,1] + smoothing) / new_total_nb_words_positive,6)
+    #     df_smoothing_model.iloc[i,4] = np.round( (df_smoothing_model.iloc[i,2] + smoothing) / new_total_nb_words_negative,6)
+    
+    # optimal dataframe speed above
+    df_smoothing_model["p-wi-positive"] = np.round( (df_smoothing_model["freq-positive"] + smoothing) / new_total_nb_words_positive,6)
+    df_smoothing_model["p-wi-negative"] = np.round( (df_smoothing_model["freq-negative"] + smoothing) / new_total_nb_words_negative,6)
+
 
     print("[news] Success rebuild model by smoothing!\n")
     return df_smoothing_model
@@ -297,10 +306,16 @@ def rebuild_model_by_word_length(a_df_model, word_length):
     print(f'[Rebuild Model by Word Length] new_size_vocabulary is : {new_size_vocabulary}')
     # print(df_infrequent_model)
 
-    for i in range(len(df_word_length_model)):
-        # rewrite the p-wi-positive and p-wi-negative
-        df_word_length_model.iloc[i,3] = np.round( (df_word_length_model.iloc[i,1] + smoothing) / new_total_nb_words_positive,6)
-        df_word_length_model.iloc[i,4] = np.round( (df_word_length_model.iloc[i,2] + smoothing) / new_total_nb_words_negative,6)
+    # for i in range(len(df_word_length_model)):
+    #     # rewrite the p-wi-positive and p-wi-negative
+    #     df_word_length_model.iloc[i,3] = np.round( (df_word_length_model.iloc[i,1] + smoothing) / new_total_nb_words_positive,6)
+    #     df_word_length_model.iloc[i,4] = np.round( (df_word_length_model.iloc[i,2] + smoothing) / new_total_nb_words_negative,6)
+
+    # optimal dataframe speed above
+    df_word_length_model["p-wi-positive"] = np.round( (df_word_length_model["freq-positive"] + smoothing) / new_total_nb_words_positive,6)
+    df_word_length_model["p-wi-negative"] = np.round( (df_word_length_model["freq-negative"] + smoothing) / new_total_nb_words_negative,6)
+
+
 
     print("[news] Success rebuild model by Word Length!")
     return df_word_length_model, new_size_vocabulary
@@ -399,10 +414,15 @@ def optimal_vocabulary_model(a_nb_model):
     print(f'[Build optimal model] new_size_vocabulary is : {new_size_vocabulary}')
     # print(df_infrequent_model)
 
-    for i in range(len(optimal_nb_model)):
-        # rewrite the p-wi-positive and p-wi-negative
-        optimal_nb_model.iloc[i,3] = np.round( (optimal_nb_model.iloc[i,1] + smoothing) / new_total_nb_words_positive,6)
-        optimal_nb_model.iloc[i,4] = np.round( (optimal_nb_model.iloc[i,2] + smoothing) / new_total_nb_words_negative,6)
+    # for i in range(len(optimal_nb_model)):
+    #     # rewrite the p-wi-positive and p-wi-negative
+    #     optimal_nb_model.iloc[i,3] = np.round( (optimal_nb_model.iloc[i,1] + smoothing) / new_total_nb_words_positive,6)
+    #     optimal_nb_model.iloc[i,4] = np.round( (optimal_nb_model.iloc[i,2] + smoothing) / new_total_nb_words_negative,6)
+
+    # rewrite the p-wi-positive and p-wi-negative
+    # optimal dataframe speed above
+    optimal_nb_model["p-wi-positive"] = np.round( (optimal_nb_model["freq-positive"] + smoothing) / new_total_nb_words_positive,6)
+    optimal_nb_model["p-wi-negative"] = np.round( (optimal_nb_model["freq-negative"] + smoothing) / new_total_nb_words_negative,6)
 
     return optimal_nb_model
 
@@ -518,11 +538,14 @@ def process_testing_text(dataset,nb_model):
     # process testing text including extract data, lowercase and tokenize the words.
     # use stopwords of nltk
     stop_words = stopwords.words('english')
-    for index, row in tqdm(dataset.iterrows(),desc='processing testing text'):
+    # for index, row in tqdm(dataset.iterrows(),desc='processing testing text'):
+    for item_comment in tqdm(dataset['review-comment'],desc='processing testing text'):
         # use regex to replace some pattern
-        row["review-comment"] = re.sub(r'[\.\/\-\+]',' ',row["review-comment"])
+        # row["review-comment"] = re.sub(r'[\.\/\-\+]',' ',row["review-comment"])
+        item_comment = re.sub(r'[\.\/\-\+]',' ',item_comment)
         # lowercase word and check if it is alpha
-        word_data = [ word.lower() for word in word_tokenize(row["review-comment"]) if word.isalpha() and len(word) > 1]
+        # word_data = [ word.lower() for word in word_tokenize(row["review-comment"]) if word.isalpha() and len(word) > 1]
+        word_data = [ word.lower() for word in word_tokenize(item_comment) if word.isalpha() and len(word) > 1]
         clean_tokens = word_data[:]
         for token in word_data:
             if token in stop_words:
@@ -567,8 +590,10 @@ def naive_bayes_classifier(nb_model, testing_dataset_p, testing_dataset_n,num_tr
     list_p_ri_positive.extend(sum_testing_positive_list_p)
     list_p_ri_negative.extend(sum_testing_negative_list_p)
     # store correct result
-    for _ in range(len(testing_dataset_p)):
-        list_correct_result.append('positive')
+    # for _ in range(len(testing_dataset_p)):
+    #     list_correct_result.append('positive')
+
+    list_correct_result.extend(list("positive" for _ in range(len(testing_dataset_p))))
     
     # negative testing dataset
     sum_testing_positive_list_n, sum_testing_negative_list_n = process_testing_text(testing_dataset_n,nb_model)
@@ -578,30 +603,41 @@ def naive_bayes_classifier(nb_model, testing_dataset_p, testing_dataset_n,num_tr
     list_p_ri_positive = np.round(np.array(list_p_ri_positive) + p_positive,2)
     list_p_ri_negative = np.round(np.array(list_p_ri_negative) + p_negative,2)
     # store correct result
-    for _ in range(len(testing_dataset_n)):
-        list_correct_result.append('negative')
-    
+    # for _ in range(len(testing_dataset_n)):
+    #     list_correct_result.append('negative')
+
+    list_correct_result.extend(list("negative" for _ in range(len(testing_dataset_n))))
+    # print(f'list_correct_result length {len(list_correct_result)}')
     # calculate my result
     list_result_temp = list_p_ri_positive - list_p_ri_negative
-    for item in list_result_temp:
-        if item > 0:
-            list_my_result.append('positive')
-        else:
-            list_my_result.append('negative')
+    # print(f'list_result_temp length {len(list_result_temp)}')
+    # for item in list_result_temp:
+    #     if item > 0:
+    #         list_my_result.append('positive')
+    #     else:
+    #         list_my_result.append('negative')
+
+    list_my_result = list(map(lambda x : "positive" if x > 0 else "negative", list_result_temp ))
+    # print(f'list_my_result length {len(list_my_result)}')
     # calculate prediction is right or wrong (based on comparing your result with correctresult)
-    for i, item in enumerate(list_correct_result):
-        if list_my_result[i] == item:
-            list_prediction.append('right')
-        else:
-            list_prediction.append('wrong')
-            
+    # for i, item in enumerate(list_correct_result):
+    #     if list_my_result[i] == item:
+    #         list_prediction.append('right')
+    #     else:
+    #         list_prediction.append('wrong')
+    
+    list_prediction = list(map(lambda x,y: "right" if x == y else "wrong", list_correct_result, list_my_result ))
+    # print(f'list prediction length {len(list_prediction)}')
     # store review title
-    for index, title in testing_dataset_p.iterrows():
-        list_review_title.append(title["review-title"])
-    for index, title in testing_dataset_n.iterrows():
-        list_review_title.append(title["review-title"])
+    # for index, title in testing_dataset_p.iterrows():
+    #     list_review_title.append(title["review-title"])
+    # for index, title in testing_dataset_n.iterrows():
+    #     list_review_title.append(title["review-title"])
     
-    
+    list_review_title.extend(testing_dataset_p["review-title"].tolist())
+    list_review_title.extend(testing_dataset_n["review-title"].tolist())
+    # print(f'list review length {len(list_review_title)}')
+
     # save the info in DataFrame
     df_test_result = pd.DataFrame({
          'review-title':list_review_title ,
