@@ -1,8 +1,8 @@
-# -------------------------------------------------------
+# -----------------------------------------------------------------------------------
 # Assignment (2)
-# Written by (Hualin Bai : 40053833 , Jiawei Zeng : 40079344)
+# Written by (Hualin Bai : 40053833 , Jiawei Zeng : 40079344 , Sasa Zhang : 25117151 )
 # For COMP 472 Section (LAB AI-X) – Summer 2021
-# --------------------------------------------------------
+# -----------------------------------------------------------------------------------
 
 '''
 This scrape_tv_series.py is to scrape your favorite tv series from IMDB website.
@@ -210,7 +210,7 @@ def scrape_all_reviews():
         # review_score_lists = [item.find('span',class_='rating-other-user-rating').find('span').text for item in star_mark_lists]
         # print(review_score_lists[0])
         
-        # add counter = 6 to get 6 comments for each review-link, speed up!!!
+        # add counter = 8 to get 8 comments for each review-link, speed up!!!
         # make sure positive and negative reviews are balance
         positive_counter = 0
         negative_counter = 0
