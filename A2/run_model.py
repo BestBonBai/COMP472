@@ -375,7 +375,7 @@ def optimal_vocabulary_model(a_nb_model):
     list_same_words = list_same_words.tolist()
 
     # update the remove.txt
-    my_remove_file = open('remove.txt','w+')
+    my_remove_file = open('remove.txt','a+')
     for item in list_same_words:
         my_remove_file.write(f'{item}\n')
     # close file
@@ -451,7 +451,7 @@ def save_result_txt(a_dataframe,file_name):
     temp = 0
     for index, row in a_dataframe.iterrows():
         temp += 1
-        my_result_file.write(f'No.{temp} {row["review-title"]}\n')
+        my_result_file.write(f'No.{temp} {row["review-title"]}')
         my_result_file.write(f'{row["p-ri-positive"]}, {row["p-ri-negative"]}, {row["my-result"]}, {row["correct-result"]}, {row["prediction"]}\n')
     # add the prediction correctness
     prediction_correctness = calc_prediction(a_dataframe)
