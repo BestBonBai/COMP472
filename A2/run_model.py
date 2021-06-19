@@ -88,9 +88,10 @@ def main():
                 df_test_result = naive_bayes_classifier(df_infrequent_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
                 prediction_list_1.append(calc_prediction(df_test_result))
                 words_amount_list_1.append(size_volcabulary)
-
-            print(f'\n[Finished Task 2.1] prediction correctness is : {prediction_list}')
-            print(f'\t\t words_amount is : {words_amount_list}')
+            print("*"*50)
+            print(f'\n[Finished Task 2.1] prediction correctness is : {prediction_list_1}')
+            print(f'\t\t words_amount is : {words_amount_list_1}')
+            print("*"*50)
             # save the final results
             save_model_txt(df_infrequent_model,'frequency-model.txt')
             save_result_txt(df_test_result,'frequency-result.txt')
@@ -129,6 +130,11 @@ def main():
                         save_model_txt(df_smoothing_model,'smooth-model.txt')
                         save_result_txt(df_test_result,'smooth-result.txt')
                         print("[TXT] Success saved smooth-model.txt and smooth-result.txt !!!\n")
+            # show results
+            print("*"*50)
+            print(f'\n[Finished Task 2.2] prediction correctness is : {prediction_list_2}')
+            print(f'\t\t smoothing_values is : {smoothing_values}')
+            print("*"*50)
             # draw graph
             fig, ax = plt.subplots(figsize=(10,5))
             plt.xticks(range(len(smoothing_values)), smoothing_values)
@@ -162,6 +168,12 @@ def main():
             save_model_txt(df_word_length_model,'length-model.txt')
             save_result_txt(df_test_result,'length-result.txt')
             print("[TXT] Success saved length-model.txt and length-result.txt !!!\n")
+
+            # show results
+            print("*"*50)
+            print(f'\n[Finished Task 2.3] prediction correctness is : {prediction_list_3}')
+            print(f'\t\t words_amount is : {words_amount_list_3}')
+            print("*"*50)
 
             # draw graph
             fig, ax = plt.subplots(figsize=(10,5))

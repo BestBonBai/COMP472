@@ -1,16 +1,16 @@
-No.1706 one
+No.1694 one
 39, 0.15444, 40, 0.148551
-No.68 characters
+No.1899 characters
 39, 0.15444, 36, 0.134058
-No.413 story
+No.20 story
 35, 0.138996, 31, 0.115942
-No.1115 episodes
+No.1045 episodes
 33, 0.131274, 25, 0.094203
-No.839 like
+No.944 like
 28, 0.111969, 50, 0.184783
-No.782 clarke
+No.657 clarke
 28, 0.111969, 33, 0.123188
-No.152 even
+No.51 even
 25, 0.100386, 22, 0.083333
-No.1779 bellamy
+No.954 bellamy
 24, 0.096525, 31, 0.115942
