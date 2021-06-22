@@ -20,6 +20,7 @@
 - pandas 
 - matplotlib.pyplot 
 - tqdm (for progressbar)
+- sklearn.metrics import f1_score
 
 - nltk
 nltk.download('punkt')

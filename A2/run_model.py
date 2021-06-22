@@ -222,9 +222,10 @@ def rebuild_model_by_frequency(a_df_model, cut_frequency = 0, cut_top = 0):
     df_infrequent_model = df_infrequent_model.sort_values(by=["freq-positive","freq-negative"],ascending=False)
     if cut_top == 0: pass
     else:
-        num_remove_rows = math.ceil(cut_top*len(df_infrequent_model))
+        num_remove_rows = math.floor(cut_top*len(df_infrequent_model))
         # remove top frequency words
-        df_infrequent_model = df_infrequent_model.drop(df_infrequent_model.head(num_remove_rows).index)
+        if num_remove_rows > 0:
+            df_infrequent_model = df_infrequent_model.drop(df_infrequent_model.head(num_remove_rows).index)
     
     # smoothing 1
     smoothing = 1
