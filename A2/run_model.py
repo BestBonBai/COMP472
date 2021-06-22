@@ -16,6 +16,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm # for progressbar
+from sklearn.metrics import f1_score
 
 import nltk
 nltk.download('punkt')
@@ -49,15 +50,15 @@ def main():
     my_result_model = build_model(processed_training_negative, processed_training_positive)
 
     # (1.3) Test your dataset
-    df_test_result = naive_bayes_classifier(my_result_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
+    df_test_result,f1_result = naive_bayes_classifier(my_result_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
     # save result.txt
     print("[news] saving result.txt file")
-    save_result_txt(df_test_result, 'result.txt')
+    save_result_txt(df_test_result, f1_result,'result.txt')
     # store prediction and words' amount
     prediction_list = []
     words_amount_list = []
     # get original result
-    prediction_list.append(calc_prediction(df_test_result))
+    prediction_list.append(calc_prediction(f1_result))
     words_amount_list.append(len(my_result_model))
 
       
@@ -76,8 +77,8 @@ def main():
                 print(f'\n[news] cut frequency is : {item}')
                 df_infrequent_model, size_volcabulary = rebuild_model_by_frequency(df_infrequent_model,item,0)
                 # print(df_infrequent_model.info)
-                df_test_result = naive_bayes_classifier(df_infrequent_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
-                prediction_list_1.append(calc_prediction(df_test_result))
+                df_test_result,f1_result = naive_bayes_classifier(df_infrequent_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
+                prediction_list_1.append(calc_prediction(f1_result))
                 words_amount_list_1.append(size_volcabulary)
             print("\n[news] removing top frequency words...")   
             top_frequency = [0.05,0.1,0.2]
@@ -85,8 +86,8 @@ def main():
                 print(f'\n[news] cut top is : {item*100}%')
                 df_infrequent_model,size_volcabulary = rebuild_model_by_frequency(df_infrequent_model,0,item)
                 # print(df_infrequent_model.info)
-                df_test_result = naive_bayes_classifier(df_infrequent_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
-                prediction_list_1.append(calc_prediction(df_test_result))
+                df_test_result,f1_result = naive_bayes_classifier(df_infrequent_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
+                prediction_list_1.append(calc_prediction(f1_result))
                 words_amount_list_1.append(size_volcabulary)
             print("*"*50)
             print(f'\n[Finished Task 2.1] prediction correctness is : {prediction_list_1}')
@@ -94,7 +95,7 @@ def main():
             print("*"*50)
             # save the final results
             save_model_txt(df_infrequent_model,'frequency-model.txt')
-            save_result_txt(df_test_result,'frequency-result.txt')
+            save_result_txt(df_test_result,f1_result,'frequency-result.txt')
             print("\n[TXT] Success saved frequency-model.txt and frequency-result.txt !!!\n")
             # save image of task 2.1
             print("[news] saving the image of the results...")
@@ -122,13 +123,13 @@ def main():
                 else:
                     df_smoothing_model = rebuild_model_by_smoothing(my_result_model,s_i)
                     # print(df_smoothing_model.info)
-                    df_test_result = naive_bayes_classifier(df_smoothing_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
-                    prediction_list_2.append(calc_prediction(df_test_result))
+                    df_test_result, f1_result = naive_bayes_classifier(df_smoothing_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
+                    prediction_list_2.append(calc_prediction(f1_result))
                     # save the result when smoothing = 1.6
                     if s_i == 1.6:
                         print("[Saving] the result and model of the smoothing is 1.6")
                         save_model_txt(df_smoothing_model,'smooth-model.txt')
-                        save_result_txt(df_test_result,'smooth-result.txt')
+                        save_result_txt(df_test_result,f1_result,'smooth-result.txt')
                         print("[TXT] Success saved smooth-model.txt and smooth-result.txt !!!\n")
             # show results
             print("*"*50)
@@ -160,13 +161,13 @@ def main():
                 print(f'\n[news] remove word length is : {length}')
                 df_word_length_model, size_volcabulary = rebuild_model_by_word_length(df_word_length_model,length)
                 # print(df_word_length_model.info)
-                df_test_result = naive_bayes_classifier(df_word_length_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
-                prediction_list_3.append(calc_prediction(df_test_result))
+                df_test_result,f1_result = naive_bayes_classifier(df_word_length_model,testing_dataset_positive,testing_dataset_negative,positive_train_nums,negative_train_nums)
+                prediction_list_3.append(calc_prediction(f1_result))
                 words_amount_list_3.append(size_volcabulary)
             # save txt files
             print("[Saving] the result and model of the word length")
             save_model_txt(df_word_length_model,'length-model.txt')
-            save_result_txt(df_test_result,'length-result.txt')
+            save_result_txt(df_test_result,f1_result,'length-result.txt')
             print("[TXT] Success saved length-model.txt and length-result.txt !!!\n")
 
             # show results
@@ -472,10 +473,11 @@ def save_remove_txt(remove_positive, remove_negative):
     my_remove_file.close()
     print("\n[TXT] remove.txt has saved success!")
 
-def save_result_txt(a_dataframe,file_name):
+def save_result_txt(a_dataframe, f1_result, file_name):
     '''
     The method is to store info of test result
     :param: a dataframe
+    :param: f1_result
     :param: file_name
     '''
 
@@ -486,24 +488,34 @@ def save_result_txt(a_dataframe,file_name):
         my_result_file.write(f'No.{temp} {row["review-title"]}')
         my_result_file.write(f'{row["p-ri-positive"]}, {row["p-ri-negative"]}, {row["my-result"]}, {row["correct-result"]}, {row["prediction"]}\n')
     # add the prediction correctness
-    prediction_correctness = calc_prediction(a_dataframe)
+    prediction_correctness = calc_prediction(f1_result)
     my_result_file.write(f'The prediction correctness is {prediction_correctness}%')
 
     print(f'\n[TXT] {file_name} has saved success!\n')
 
-def calc_prediction(a_dataframe):
+def calc_prediction(f1_value):
     '''
     The method is to calculate the prediction correctness.
-    :param: a test dataframe
+    :param: f1-value
     :return: prediction_correctness (float)
     '''
-    # add the prediction correctness
-    df_freq_group = a_dataframe['prediction'].value_counts()
-    freq_correct_prediction = df_freq_group[df_freq_group.index == 'right']
-    prediction_correctness = np.round(np.round(freq_correct_prediction / len(a_dataframe),4)*100,2)
-    print(f'[prediction correctness] is {prediction_correctness[0]}%')
-    return prediction_correctness[0]
+    # add the prediction correctness, using normalize
+    # df_freq_group = a_dataframe['prediction'].value_counts(normalize=True)
+    # prediction_correctness = np.round(df_freq_group[df_freq_group.index == 'right']*100,2)
+    prediction_correctness = np.round(f1_value*100,2)
+    print(f'[prediction correctness] is {prediction_correctness}%')
+    return prediction_correctness
 
+def calc_f1_measure(np_actual_value, np_predict_value):
+    '''
+    This method is to calculate f1-measure.
+    :param: np_actual_value
+    :param: np_predict_value
+    :return: f1_measure
+    '''
+    f1_result = np.round(f1_score(np_actual_value, np_predict_value,average='weighted'),4)
+    # print(f'[f1-score] is {f1_result}\n')
+    return f1_result
 
 
 def process_text(dataset):
@@ -584,6 +596,7 @@ def naive_bayes_classifier(nb_model, testing_dataset_p, testing_dataset_n,num_tr
     This method is to use naive bayes classifier to classify the testing dataset.
     :param: nb_model, testing_dataset_p, testing_dataset_n,num_train_positive, num_train_negative
     :return: df_test_result : DataFrame
+    :return: f1_result
     '''
     # test dataframe to store the test info
     list_review_title = []
@@ -592,6 +605,9 @@ def naive_bayes_classifier(nb_model, testing_dataset_p, testing_dataset_n,num_tr
     list_my_result = []
     list_correct_result = []
     list_prediction = []
+    # for calculate f1-measure
+    list_correct_result_number = []
+    list_my_result_number = []
     # calculate p(positive) and p(negative)
     p_positive = np.round(math.log10(num_train_positive/(num_train_positive+num_train_negative)),2)
     p_negative = np.round(math.log10(num_train_negative/(num_train_positive+num_train_negative)),2)
@@ -630,6 +646,16 @@ def naive_bayes_classifier(nb_model, testing_dataset_p, testing_dataset_n,num_tr
     #         list_my_result.append('negative')
 
     list_my_result = list(map(lambda x : "positive" if x > 0 else "negative", list_result_temp ))
+
+    # f1-measure: set positive is 0, negative is 1 
+    list_correct_result_number = list(map(lambda x : 0 if x == 'positive' else 1, list_correct_result))
+    list_my_result_number = list(map(lambda x : 0 if x == 'positive' else 1, list_my_result))
+    # print(f'[f1-measure] {list_correct_result_number} \n \t{list_my_result_number}') 
+    # transfer to numpy
+    np_correct_value = np.array(list_correct_result_number)
+    np_predict_value = np.array(list_my_result_number)
+    f1_result = calc_f1_measure(np_correct_value,np_predict_value)
+
     # print(f'list_my_result length {len(list_my_result)}')
     # calculate prediction is right or wrong (based on comparing your result with correctresult)
     # for i, item in enumerate(list_correct_result):
@@ -662,7 +688,10 @@ def naive_bayes_classifier(nb_model, testing_dataset_p, testing_dataset_n,num_tr
     print("[news] finished Naive Bayes Classifier!")
     # print("[news] saving result.txt file")
 
-    return df_test_result
+    return df_test_result, f1_result
+
+
+
 
 
 if __name__ == '__main__':

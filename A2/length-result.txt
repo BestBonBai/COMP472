@@ -424,4 +424,4 @@ No.212  Hungry
 -193.08, -198.93, positive, negative, wrong
 No.213  Just watch and stop thinking
 -60.04, -58.98, negative, negative, right
-The prediction correctness is 63.85%
+The prediction correctness is 61.77%
